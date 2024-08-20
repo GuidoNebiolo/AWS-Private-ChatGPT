@@ -1,0 +1,24 @@
+{
+  "name": "backendless-bedrock-gptui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.11",
+    "@aws-sdk/client-bedrock": "^3.634.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.632.0",
+    "aws-amplify": "^6.5.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
